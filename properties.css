@@ -197,10 +197,6 @@ a:active {
   color: unset;
 }
 
-video::-webkit-media-controls {
-  display: none;
-}
-
 body::-webkit-scrollbar {
   display: none;
 }
