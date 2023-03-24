@@ -33,7 +33,8 @@
 
 .header-container {
   height: 54px;
-  width: 935px;
+  max-width: 935px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,12 +82,14 @@
 }
 
 .feed-container {
-  width: 614px;
+  max-width: 614px;
+  width: 100%;
 }
 
 .story-container {
   height: 118px;
-  width: 612px;
+  max-width: 612px;
+  width: 100%;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -104,7 +107,8 @@
 
 .story-container-mobile {
   height: 118px;
-  width: 612px;
+  max-width: 612px;
+  width: 100%;
   display: none;
   justify-content: left;
   align-items: center;
@@ -115,8 +119,8 @@
 }
 
 .individual-story-container {
-  height: 86;
-  width: 66;
+  height: 86px;
+  width: 66px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -124,7 +128,7 @@
 }
 
 .photo-feed {
-  width: 614px;
+  max-width: 614px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -132,7 +136,8 @@
 
 .photo-container {
   height: 717px;
-  width: 610px;
+  max-width: 610px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -144,13 +149,17 @@
   margin-bottom: 60px;
 }
 .photo {
-  height: 612px;
-  width: 612px;
+  max-height: 612px;
+  height: 100%;
+  max-width: 612px;
+  width: 100%;
+
 }
 
 .profile-top-bar {
   height: 60px;
-  width: 612px;
+  max-width: 612px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -191,7 +200,7 @@
 
 .comment-section {
   height: 50px;
-  width: 612px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
