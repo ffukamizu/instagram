@@ -213,7 +213,7 @@
 
 .mobile-bottom-menu {
   height: 52px;
-  width: 610px;
+  width: 100%;
   display: none;
   justify-content: space-around;
   align-items: center;
